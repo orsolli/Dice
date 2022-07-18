@@ -12,6 +12,12 @@ end]]
 --Set the application title
 title="TEMP"
 
+--Attach debugger
+local json = require "dkjson"
+local debuggee = require "vscode-debuggee"
+local startResult, breakerType = debuggee.start(json)
+print("debuggee start ->", startResult, breakerType)
+
 --Create a window
 local windowstyle = 0
 local winwidth
