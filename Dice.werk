@@ -1,0 +1,13 @@
+Author="
+MainSourceFile=""
+MultiLineCommentOpenToken="//"
+SingleLineCommentToken="//"
+CommandLine=""
+Copyright=""
+WindowsPublishPath=""
+AndroidPublishPath=""
+iOSPublishPath=""
+MacOSPublishPath=""
+Template="Blank Project"
+AppID=0
+DepotID=0

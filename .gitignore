@@ -1,0 +1,10 @@
+Dice
+Dice.sh
+*.debug
+*.debug.sh
+*.exe
+*.so
+*.dll
+steam_appid.txt
+update.log
+*.brk

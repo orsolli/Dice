@@ -1,0 +1,1 @@
+The Steamworks publishing system no longer creates empty folders.  This files forces the creation of the folder it is in.
