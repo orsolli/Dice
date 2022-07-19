@@ -9,6 +9,6 @@ end
 --This function is used to handle errors that occur as a result of an Invoke() function.
 function LuaErrorHandler(message)
 	local s = string.split(message,":")
-	Debug:Error(s[4])
+	Debug:Error(s[#s])
 	--Debug:Error("Lua Error: "..message)
 end
